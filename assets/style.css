@@ -5,10 +5,10 @@
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
     height: 100vh;
     width: 100vw;
-    color: white;
+    /* color: white; */
     font-family: sans-serif;
 }
 .wrapper {
@@ -37,16 +37,46 @@ body {
     image-rendering: pixelated;
 }
 
-a {
+/* a {
     margin-bottom: 10px;
-    border: solid 1px white;
+    border: solid 1px  white;
     padding: 5px 10px; 
     font-family: serif;
     color: white;
     text-decoration: none;
+} */
+
+.link-box a{
+    margin: 10px;
 }
 
-a:hover, a:focus {
-   background: white;
+.link-row {
+    margin: 10px;
 }
 
+a img {
+    width: 50px;
+    height: 50px;
+}
+
+a:hover img, a:focus img{
+   opacity: 0.5;
+}
+
+@font-face {
+    font-family: "htBold";
+    src: url('happy-times-NG_bold_master_web.woff2') format('woff2')
+}
+@font-face {
+    font-family: "htReg";
+    src: url('happy-times-NG_regular_master_web.woff2') format('woff2')
+}
+@font-face {
+    font-family: "htItalic";
+    src: url('happy-times-NG_italic_master_web.woff2') format('woff2')
+}
+h1 {
+    font-family: "htBold";
+    font-size: 50px;
+    letter-spacing: -4px;
+}
