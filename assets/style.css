@@ -65,21 +65,21 @@ a:hover img, a:focus img{
 
 @font-face {
     font-family: "htBold";
-    src: url('./happy-times-NG_bold_master_web.woff2') format('woff2'),
-    url('./happy-times-NG_bold_master_web.woff') format('woff'),
-    url('./happy-times-NG_bold_master_web.ttf') format('truetype')
+    src: url('happy-times-NG_bold_master_web.woff2') format('woff2'),
+    url('happy-times-NG_bold_master_web.woff') format('woff'),
+    url('happy-times-NG_bold_master_web.ttf') format('truetype')
 }
 @font-face {
     font-family: "htReg";
-    src: url('./happy-times-NG_regular_master_web.woff2') format('woff2'),
-    url('./happy-times-NG_regular_master_web.woff') format('woff'),
-    url('./happy-times-NG_regular_master_web.ttf') format('truetype')
+    src: url('happy-times-NG_regular_master_web.woff2') format('woff2'),
+    url('happy-times-NG_regular_master_web.woff') format('woff'),
+    url('happy-times-NG_regular_master_web.ttf') format('truetype')
 }
 @font-face {
     font-family: "htItalic";
-    src: url('./happy-times-NG_italic_master_web.woff2') format('woff2'),
-    url('./happy-times-NG_italic_master_web.woff') format('woff'),
-    url('./happy-times-NG_italic_master_web.ttf') format('truetype')
+    src: url('happy-times-NG_italic_master_web.woff2') format('woff2'),
+    url('happy-times-NG_italic_master_web.woff') format('woff'),
+    url('happy-times-NG_italic_master_web.ttf') format('truetype')
 }
 h1 {
     font-family: "htBold";
