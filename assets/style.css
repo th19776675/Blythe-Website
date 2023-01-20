@@ -66,17 +66,20 @@ a:hover img, a:focus img{
 @font-face {
     font-family: "htBold";
     src: url('./assets/happy-times-NG_bold_master_web.woff2') format('woff2');
-    src: url('./assets/happy-times-NG_bold_master_web.woff') format('woff')
+    src: url('./assets/happy-times-NG_bold_master_web.woff') format('woff');
+    src: url('./assets/happy-times-NG_bold_master_web.ttf') format('truetype')
 }
 @font-face {
     font-family: "htReg";
     src: url('./assets/happy-times-NG_regular_master_web.woff2') format('woff2');
-    src: url('./assets/happy-times-NG_regular_master_web.woff') format('woff')
+    src: url('./assets/happy-times-NG_regular_master_web.woff') format('woff');
+    src: url('./assets/happy-times-NG_regular_master_web.ttf') format('truetype')
 }
 @font-face {
     font-family: "htItalic";
     src: url('./assets/happy-times-NG_italic_master_web.woff2') format('woff2');
-    src: url('./assets/happy-times-NG_italic_master_web.woff') format('woff')
+    src: url('./assets/happy-times-NG_italic_master_web.woff') format('woff');
+    src: url('./assets/happy-times-NG_italic_master_web.ttf') format('truetype')
 }
 h1 {
     font-family: "htBold";
