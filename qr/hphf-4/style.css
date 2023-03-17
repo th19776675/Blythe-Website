@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e23767;
+  padding: 10px;
+  color: #2f151b;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: -1px;
+  overflow: hidden;
+}
+
+p {
+  transform: scaleY(0.75);
+  padding: 20px;
+  display: inline-block;
+}
+
+a {
+  background: none;
+  color: #2f151b;
+  width: px;
+  border: 1px #2f151b solid;
+  padding: 0px 5px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  outline: 2px #2f151b solid;
+}
+
+.figures {
+  width: 30%;
+}
+
