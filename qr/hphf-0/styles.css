@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e23767;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.outer-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.inner-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.splash {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* 
+.headline-title {
+  animation: animated 5s ease-in-out infinite;
+} */
+
+.overlay-splash {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  left: 0;
+  top: 0;
+}
+
+.splash-box {
+  width: 325px;
+  border: 5px solid #2f151b;
+  border-radius: 20px;
+  background-color: #e23767;
+  padding: 20px;
+  /* color: #bed863; */
+  color: #2f151b;
+  text-align: center;
+  font-size: 1.5em;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.sub-line {
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+
+.splash-box button {
+  padding: 5px 10px;
+  border: none;
+  border: 2px solid #2f151b;
+  border-radius: 100px;
+  background: none;
+  color: #2f151b;
+  font-size: 14px;
+  letter-spacing: -1px;
+  margin-top: 10px;
+}
+
+.splash-box button:focus {
+  background: #2f151b;
+}
+
+@keyframes animated{
+  0% {transform: translateX(0px)} 
+  25% {transform: translateX(200px)} 
+  50% {transform: translateX(0px)} 
+  75% {transform: translateX(-200px)} 
+  100% {transform: translateX(0px)} 
+}
+
+.main-text {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+
+
+.main-text img {
+  width: 300px;
+  border: 3px solid #2f151b;
+  border-radius: 20px;
+}
+
+.main-text p {
+  margin-top: 10px;
+  border: 3px solid #2f151b;
+  border-radius: 10px;
+  padding: 10px;
+  /* color: #bed863 */
+  color:#2f151b;
+  letter-spacing: -1px;
+}
+
+.version-text {
+  font-size: 12px;
+  font-family: monospace;
+  font-weight: 100;
+}
+
+.version-number {
+  padding: 3px 6px;
+  background: #bed863;
+  border-radius: 10px;
+}
