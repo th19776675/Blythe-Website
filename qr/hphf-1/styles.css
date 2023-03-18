@@ -41,3 +41,72 @@ input {
 input:focus {
   outline: 2px #bed864 solid;
 }
+
+
+@keyframes move {
+  0% {
+     transform: rotate(0deg) translateX(200px) rotate(0deg);
+  }
+  100% {
+     transform: rotate(360deg) translateX(200px) rotate(-360deg);
+  }
+}
+
+p {
+ margin-top: 10px;
+}
+
+.frame-box {
+ height: 500px;
+ width: 100%;
+ overflow-y: hidden;
+ border:1px solid black;
+}
+
+.loading-wrapper {
+  top:0;
+  left:0;
+ width: 100vw;
+ height: 100vh;
+ position: fixed;
+ background: rgba(23, 23, 23, 0.074);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ pointer-events: none;
+}
+
+.block {
+ width: 20px;
+ height: 20px;
+ background: black;
+ margin: 5px;
+}
+
+.blur {
+ filter: blur(10px);
+}
+
+.left {
+ animation: bounce 1s ease-out infinite;
+}
+
+.middle {
+ animation: bounce 1s ease-out 0.25s infinite;
+}
+
+.right {
+ animation: bounce 1s ease-out 0.5s infinite;
+}
+
+.event-link img{
+ height: 30px;
+}
+
+@keyframes bounce {
+ 0% {transform: translateY(0);}
+ 25% {transform: translateY(20px)}
+ 50% {transform: translateY(0)}
+ 75% {transform: translateY(-20px)}
+ 100% {transform: translateY(0)}
+}
