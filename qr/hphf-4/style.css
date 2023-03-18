@@ -6,38 +6,39 @@
 
 body {
   background: #e23767;
-  padding: 10px;
-  color: #2f151b;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  color: #bed864;
+  font-family: monospace;
   width: 100vw;
   text-align: center;
-  font-weight: 100;
-  letter-spacing: -1px;
-  overflow: hidden;
 }
 
-p {
-  transform: scaleY(0.75);
-  padding: 20px;
-  display: inline-block;
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-a {
+.mad-input {
+  margin-top: 10px;
+}
+
+form img {
+  width: 50%;
+}
+
+input, button {
   background: none;
-  color: #2f151b;
-  width: px;
-  border: 1px #2f151b solid;
+  color: #bed864;
+  border: 1px #bed864 solid;
   padding: 0px 5px;
-  margin-bottom: 50px;
-  margin-top: 5px;
-  text-decoration: none;
+  width: 100px
+  /* margin-bottom: 50px;
+  margin-top: 5px; */
 }
 
-a:hover, a:focus {
-  outline: 2px #2f151b solid;
-}
-
-.figures {
-  width: 30%;
+input:focus, button:focus {
+  outline: 2px #bed864 solid;
 }
 
